@@ -1,0 +1,57 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aliceblue;
+  background-color: black;
+}
+
+.nav ul {
+  list-style-type: none; /*Disable bullets*/
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.header {
+  margin-top: 20px;
+  text-align: center;
+}
+img {
+  height: 400px;
+  width: 400px;
+  padding-left: 40%;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+.description {
+  text-align: center;
+  font-style: italic;
+  line-height: 1.5rem;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.ingredients,
+.directions {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.links {
+  margin: auto;
+}
+.img-col img {
+  float: left;
+  padding: 10px;
+  height: 300px;
+  width: 300px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+.img-col img:hover {
+  background-color: lightgreen;
+  opacity: 1;
+  display: block;
+}
+
+.footer {
+  margin: 50px;
+  text-align: center;
+}
